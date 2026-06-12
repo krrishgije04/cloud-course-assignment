@@ -23,4 +23,4 @@ jobs:
 
       - name: Upload files to GCS Bucket
         run: |
-          gsutil -m cp -r *.html *.css gs://cloud-course-krrish-2026/
+          gsutil -m cp -r cloud-course-assignment/* gs://cloud-course-krrish-2026/
